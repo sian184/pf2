@@ -1,0 +1,65 @@
+header {
+ 
+  height: 100px;
+}
+header nav {
+ 
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  width: 1190px;
+  margin: 0 auto;
+}
+header nav h1 {
+ 
+}
+header nav h1 a {
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  width: 132px;
+  height: 64px;
+  margin-top: 30px;
+}
+header nav ul.gnb { 
+  display: flex;
+  column-gap: 84px;
+  font-size: 14px;
+  margin-top: 40px;
+  height: 100%;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header nav ul.gnb li {
+}
+header nav ul.gnb li a {
+}
+header nav ul.gnb li:last-child {
+
+}
+header nav ul.gnb li:last-child a {
+  color: white;
+  background-color: #00A5B1;
+  border-radius: 18px;
+  padding: 10px 30px;
+  text-align: center;
+}
+header nav ul.lang {
+  position: absolute;
+  top: 16px;
+  font-size: 12px;
+  right: 0;
+}
+header nav ul.lang li {
+ column-gap: 30px;
+}
+header nav ul.lang li a {
+  margin-top: 6px;
+  padding: 0 10px 0;
+  font-weight: bold;
+}
+header nav ul.lang li:nth-child(1) a {
+  border-right: 1px solid #3a466a;
+
+}

@@ -1,0 +1,125 @@
+footer {
+margin-top: 60px;
+}
+footer .wrap {
+
+  display: grid;
+  grid-template-columns: auto auto 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 32px;
+}
+footer .wrap ul.fnb {
+  grid-column: 1 / span 4;
+  grid-row: 1 ;
+  display: flex;
+  position: relative;
+  font-weight: bold;
+  color: #3a466a;
+  padding-bottom: 27px;
+}
+footer .wrap ul.fnb::after {
+  content: "";
+  display: block;
+  width: calc(100vw);
+  position: absolute;
+  /*! left: calc(1440px); */
+  height: 100%;
+  border-bottom: 3px solid #3a466a;
+}
+footer .wrap ul.fnb li {
+
+  padding-right: 32px;
+}
+footer .wrap ul.fnb li a {
+
+}
+footer .wrap p.tel {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  font-weight: bold;
+  color: #00A5B1;
+  padding-left: 440px;
+}
+footer .wrap h1 {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 0;
+  background-image: url(../img/footer-logo.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 80px;
+}
+footer .wrap h1 a {
+
+}
+footer .wrap address {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  /*! line-break: 10px; */
+  padding-left: 184px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 450;
+}
+footer .wrap address span {
+  padding-right: 10px;
+}
+footer .wrap ul.sns {
+  grid-column: 4;
+  grid-row: 2;
+  justify-self: end;
+}
+footer .wrap ul.sns li {
+ 
+}
+footer .wrap ul.sns li a {
+
+}
+footer .wrap ul.sns li:nth-child(1) a {
+  background-image: url(../img/ico-insta.png);
+  background-repeat: no-repeat;
+  color: #fff0;
+  height: 30px;
+  width: 30px;
+  padding-right: 16px;
+}
+footer .wrap ul.sns li:nth-child(2) a {
+  background-image: url(../img/ico-blog.png);
+  background-repeat: no-repeat;
+  color: #fff0;
+  height: 30px;
+  width: 30px;
+  padding-right: 16px;
+}
+footer .wrap ul.sns li:nth-child(3) a {
+  background-image: url(../img/ico-fb.png);
+  background-repeat: no-repeat;
+  color: #fff0;
+  height: 30px;
+  width: 30px;
+  padding-right: 16px;
+}
+footer .wrap ul.sns li:nth-child(4) a {
+  background-image: url(../img/ico-youtub.png);
+  background-repeat: no-repeat;
+  color: #fff0;
+  height: 30px;
+  width: 30px;
+  padding-right: 16px;
+}
+footer .wrap ul.sns li:nth-child(5) a {
+  background-image: url(../img/ico-app.png);
+  background-repeat: no-repeat;
+  color: #fff0;
+  height: 30px;
+  width: 30px;
+}
+footer .wrap p.copyright {
+  grid-column: 1 / span 4;
+  grid-row: 3;
+  color: #b8b8b8;
+  padding-left: 184px;
+  font-size: 14px;
+}

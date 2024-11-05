@@ -1,0 +1,80 @@
+#title {
+  height: 720px;
+}
+#title .wrap {
+  width: auto;
+  height: 100%;
+}
+#title .wrap > ul div{
+  height: 100%;
+}
+#title .wrap > ul {
+  height: 100%;
+  overflow: hidden;
+}
+#title .wrap > ul .slick-prev{
+  left: 30px;
+  z-index: 1;
+}
+#title .wrap > ul .slick-prev::before{
+  background-image: url(../img/iconprev.svg);
+}
+#title .wrap > ul .slick-prev:hover::before{
+  transform: translateX(20px);
+}
+#title .wrap > ul .slick-next{
+  right: 80px;
+}
+#title .wrap > ul .slick-next::before{
+  background-image: url(../img/iconprev2.svg);
+}
+#title .wrap > ul .slick-next:hover::before{
+  
+  transform: translateX(-20px);
+}
+#title .wrap > ul .slick-prev::before,#title .wrap > ul .slick-next::before{
+  font-size: 0;
+  width: 80px;
+  height: 80px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+#title .wrap > ul li.t {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 calc((100vw - 17px - 1280px) / 2);
+  background-position: center;
+  background-position: cover;
+  background-position: no-repeat;
+  align-items: baseline;
+}
+
+#title .wrap ul li.t1{
+  background-image: url(../img/crystal-jo-nXXFfEsZQwA-unsplash.jpg)
+}
+#title .wrap ul li.t2{
+  background-image: url(../img/valeriano-g-4-0DGBejb1A-unsplash.jpg)
+}
+#title .wrap ul li.t3{
+  background-image: url(../img/adam-jaime-dmkmrNptMpw-unsplash.jpg)
+}
+#title .wrap ul li h2 {
+  color: #eee;
+}
+#title .wrap ul li.t a {
+  color: #222;
+  width: fit-content;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  background-color: #eee;
+}
+#title .wrap > ul .slick-dots{
+  bottom: 30px;
+}
